@@ -1,0 +1,7 @@
+QuickGraph 3.6.611197
+	QuickGraph.dll
+	QuickGraph.Data.dll
+	QuickGraph.Graphviz.dll
+	QuickGraph.Serialization.dll
+	
+Newtonsoft.Json.dll

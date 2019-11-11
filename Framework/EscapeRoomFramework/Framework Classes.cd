@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="EscapeRoomFramework.EscapeRoom&lt;TPhysicalInterface&gt;">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="EscapeRoomFramework.EscapeRoom&lt;TPhysicalInterface&gt;.RoomStateChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EscapeRoom.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EscapeRoomFramework.EscapeRoom&lt;TPhysicalInterface&gt;.DiagnosticsReportCreatedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EscapeRoom.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQRCAAAgCAAASKAQAAggAAAIAQAEQIEAAQBRAAAAAA=</HashCode>
+      <FileName>EscapeRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.DiagnosticsReportCreatedEventArgs">
+    <Position X="15.25" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DiagnosticsReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.DiagnosticsReport">
+    <Position X="12" Y="3" Width="7" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIKAAAAAAAAKAAACAAAiIIAAAKAAAAAAABAAAA=</HashCode>
+      <FileName>DiagnosticsReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.Game&lt;TPhysicalInterface&gt;">
+    <Position X="5.25" Y="0.5" Width="5.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="EscapeRoomFramework.Game&lt;TPhysicalInterface&gt;.GameStateChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQDBAAAACAABSIAQAAAAAAgAEAAAAIEAAAABAABAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.Module&lt;TPhysicalInterface&gt;">
+    <Position X="32.5" Y="2.75" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAAAAAAAABAAgAAAAEAAAAIAAAAAQAAAAAA=</HashCode>
+      <FileName>Module.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EscapeRoomFramework.RoomStateChangedEventArgs">
+    <Position X="24.75" Y="0.5" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIQAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.IllegalRoomStateTransitionException">
+    <Position X="21.5" Y="2.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.GameStateChangedEventArgs">
+    <Position X="26.25" Y="2.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.IllegalGameStateTransitionException">
+    <Position X="21.5" Y="5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EscapeRoomFramework.States">
+    <Position X="26.25" Y="5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>States.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EscapeRoomFramework.IModule&lt;TPhysicalInterface&gt;">
+    <Position X="32.5" Y="0.5" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAAAAAAAAAAAgAAAAEAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>IModule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EscapeRoomFramework.IPhysicalInterface">
+    <Position X="12" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABAACQAAA=</HashCode>
+      <FileName>IPhysicalInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="EscapeRoomFramework.GameDifficulty">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EscapeRoomFramework.RoomState">
+    <Position X="21.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAACAAAAAQIAAAAAAAAAAAAAAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>States.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EscapeRoomFramework.GameState">
+    <Position X="23" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAACAAAAAQIAAAAAAAAAAAAAAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>States.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
